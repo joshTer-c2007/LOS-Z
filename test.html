@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="estilos.css"> <!-- Nueva hoja de estilos -->
         <script src="test.js"></script>
         <script src="serviciosTest.js"></script>
     </head>
     <body>
-        <input type="text" id="txtNombre"/>
-        <input type="text" id="txtApellido"/>
-        <input type="button" value="SALUDAR" onclick="saludar();"/>
+        <div class="container">
+            <h1>Generador de Saludos</h1>
+            <input type="text" id="txtNombre" placeholder="Ingresa tu nombre"/>
+            <input type="text" id="txtApellido" placeholder="Ingresa tu apellido"/>
+            <input type="button" value="SALUDAR" onclick="saludar();"/>
+            <h4 id="resultado"></h4> <!-- Nuevo h4 para mostrar resultado -->
+        </div>
     </body>
 </html>

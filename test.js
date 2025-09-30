@@ -7,4 +7,5 @@ saludar=function(){
     apellido=document.getElementById("txtApellido").value;
     saludo=generarSaludo(nombre,apellido);
     console.log("HOLA "+nombre+" "+apellido);
+    document.getElementById("resultado").innerHTML = saludo;
 }
