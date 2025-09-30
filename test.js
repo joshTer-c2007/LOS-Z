@@ -3,8 +3,8 @@ saludar=function(){
     let apellido;
     let saludo;
 
-    nombre=document.getElementById("txtNombre");
-    apellido=document.getElementById("txtApellido");
+    nombre=document.getElementById("txtNombre").value;
+    apellido=document.getElementById("txtApellido").value;
     saludo=generarSaludo(nombre,apellido);
-    console.log(saludo);
+    console.log("HOLA "+nombre+" "+apellido);
 }
